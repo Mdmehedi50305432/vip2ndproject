@@ -1,0 +1,97 @@
+.head{
+  background-color: #1e06fc;
+}
+.search{
+  background-color: rgb(9, 168, 241);
+}
+.m{
+  position: relative;
+  bottom: 15.5px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f70c0c;
+  }
+  
+  .li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  .li:last-child {
+    border-right: none;
+  }
+  
+  .li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .content{
+    display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 0px;
+  }
+  .item1 {
+    grid-row-end: span 3;
+  }
+  .item2{
+    padding: 10px;
+    align-items: center;
+  }
+  .Mehedi{
+    width: 972px;
+    background-color: #bbb;
+  }
+  .container{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  }
+  .notice{
+    grid-column-end: span 3;
+    background-color: #bbb;
+    width: 968px;
+    height: 282px;
+  }
+  .list {
+    list-style-image: url('https://icons.iconarchive.com/icons/papirus-team/papirus-apps/16/chromium-app-list-icon.png');
+  }
+  .container1{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  padding: 106px;
+  padding-right: 528px;
+padding-left: 13px;
+overflow: hidden;
+  }
+  .card{
+    background-color: #bbb;
+    width: 400px;
+    box-shadow: 5px 3px black;
+    margin-left: 72px;
+  }
+  .pos{
+    position: relative;
+    bottom: 200px;
+  }
+  .pos1{
+    position: relative;
+    bottom: 100px;
+  }
+  .pos2{
+    position: relative;
+    bottom: 134px;
+  }
